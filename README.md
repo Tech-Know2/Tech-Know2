@@ -1,6 +1,6 @@
 # Hi there, I'm Cooper! 👋
 
-I'm a **Software Engineering** student at **Arizona State University (Poly)** minoring in **Economics**. I bridge the gap between complex software architecture and market-driven logic.
+I'm a **Software Engineering** student at **Arizona State University (Poly)**, minoring in **Economics**. I'm going to bridge the financial gap between people globally.
 
 ### 🔗 Let's Connect
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://cooperharris.vercel.app/)
