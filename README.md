@@ -1,6 +1,6 @@
 # Hi there, I'm Cooper! 👋
 
-I'm a **Software Engineering** student at **Arizona State University (Poly)**, minoring in **Economics**. I'm going to bridge the financial gap between people globally.
+I'm a **Software Engineering** student at **Arizona State University (Poly)**, minoring in **Economics**. I plan on helping bridge the financial gap between people globally.  
 
 ### 🔗 Let's Connect
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://cooperharris.vercel.app/)
@@ -12,7 +12,7 @@ I'm a **Software Engineering** student at **Arizona State University (Poly)**, m
 | Category | Tools & Languages |
 | :--- | :--- |
 | **Languages** | `C#`, `Java`, `TypeScript`, `C`, `C++` |
-| **Frameworks** | `Next.js`, `NestJS`, `PayloadCMS` |
+| **Frameworks** | `Next.js`, `NestJS`, `PayloadCMS`, `MedusaJS`|
 | **Infrastructure** | `PostgreSQL`, `Supabase`, `BullMQ`, `Redis`, `Docker`, `Coolify`, `Dokploy` |
 
 ---
@@ -27,13 +27,13 @@ An event-driven e-commerce ecosystem designed for extreme composability.
 ---
 
 ### 🏛️ Previous Projects: MedusaJS + PayloadCMS Website
-I was contacted to build an ecommerce website for Stiver Optics using MedusaJS and PayloadCMS.
+I was contacted to build an e-commerce website for Stiver Optics using MedusaJS and PayloadCMS.
 
 [![Stiver Optics Live](https://img.shields.io/badge/MedusaJS-562C91?style=for-the-badge&logo=medusa&logoColor=white)](https://store.stiveroptics.com/)
 
 * **The Problem:** I needed to make a ecommerce website for a customer so that they could reach their customers and sell in their business channels.
-* **The Solution:** Integrating with MedusaJS t handle payments (Stripe), shipping (Shippo), notifications (Resend), and more while also allowing them to ad products, design the frontend, and more with ease and no technical knowledge.
-* **The Tech:** MedusaJS, NextJS, PayloadCMS, and Coolify for self hosting and server management.
+* **The Solution:** Integrating with MedusaJS to handle payments (Stripe), shipping (Shippo), notifications (Resend), and more while also allowing them to ad products, design the frontend, and more with ease and no technical knowledge.
+* **The Tech:** MedusaJS, NextJS, PayloadCMS, and Coolify for self-hosting and server management.
 
 ---
 
@@ -41,5 +41,5 @@ I was contacted to build an ecommerce website for Stiver Optics using MedusaJS a
 I am deeply passionate about **Decentralized Finance**—not as a speculative vehicle, but as a fundamental shift in institutional plumbing. My interest lies in building tools that empower users through:
 
 * **Account Abstraction:** Simplifying UX while integrating with protocols like **Morpho** or **Aave** to optimize capital efficiency.
-* **Protocol Integrity:** I advocate for "Value-First" crypto. I’m inspired by pioneers like **MakerDAO/Sky Money** (Decentralized Algorthimic Stablecoins) and **Morpho** (Lending), and I actively distance my work from purely speculative/extractive platforms (e.g., meme-coin generators).
-* **Optimization:** I would like to eventually be able to use my education in economics to build powerful financial tools and instruments that will be able to return the power of money to the masses, and level the playing field for all.
+* **Protocol Integrity:** I advocate for "Value-First" crypto. I’m inspired by pioneers like **MakerDAO/Sky Money** (Decentralized Algorithmic Stablecoins) and **Morpho** (Lending), and I actively distance my work from purely speculative/extractive platforms (e.g., meme-coin generators).
+* **Optimization:** I would like to eventually be able to use my education in economics to build powerful financial tools and instruments that will be able to return the power of money to the masses and level the playing field for all.
