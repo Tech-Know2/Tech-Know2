@@ -1,6 +1,6 @@
 # Hi there, I'm Cooper! 👋
 
-I'm a **Software Engineering** student at **Arizona State University (Poly)**, minoring in **Economics**. I plan on helping bridge the financial gap between people globally.  
+I'm a **Software Engineering** student at **Arizona State University (Poly)**, minoring in **Economics**. I plan on helping to bridge the financial gap between people globally.  
 
 ### 🔗 Let's Connect
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://cooperharris.vercel.app/)
@@ -12,17 +12,26 @@ I'm a **Software Engineering** student at **Arizona State University (Poly)**, m
 | Category | Tools & Languages |
 | :--- | :--- |
 | **Languages** | `C#`, `Java`, `TypeScript`, `C`, `C++` |
-| **Frameworks** | `Next.js`, `NestJS`, `PayloadCMS`, `MedusaJS`|
+| **Frameworks** | `Next.js`, `ExpressJS`, `PayloadCMS`, `MedusaJS`|
 | **Infrastructure** | `PostgreSQL`, `Supabase`, `BullMQ`, `Redis`, `Docker`, `Coolify`, `Dokploy` |
+| **Custom Tooling** | `@devCMS` |
 
 ---
 
-### 🏗️ Featured Project: PayloadCMS Commerce
+### 🏗️ Featured Projects: 
+#### PayloadCMS Commerce
 An event-driven e-commerce ecosystem designed for extreme composability. 
 
-* **The Problem:** While tools like **MedusaJS** offer great infra, I found them restrictive when trying to build deeply integrated, visually-driven admin dashboards and custom page builders.
+* **The Problem:** While tools like **MedusaJS** or **Vendure** offer great infra for initially building out ecommerce websites, I found them restrictive when trying to build highly customized experiences. The inability to offer subscriptions, custom page building, visual workflows, and more made it challenging for my clients to adjust their previous workflows to this new and heavily boxed in solution.
 * **The Solution:** A custom Module/Provider architecture leveraging **PayloadCMS** and **Puck Editor** for a truly headless, "drag-and-drop" developer experience.
-* **The Tech:** Next.js, NestJS, and **BullMQ** for robust background job processing.
+* **The Tech:** Next.js, ExpressJS, PayloadCMS, ReactFlow, Puck Editor, and **BullMQ** for robust background job and workflow processing.
+
+#### @devCMS
+A content management system modeled after PayloadCMS that allows developers to instantly set up API web servers with typed and defined schemas for events, collections, configs, jobs, and workflows. The system takes after my eCommerce project learnings and is event-driven and typed from the foundation up.
+
+* **The Problem:** While tools like **PayloadCMS**  or **drizzleORM** allow developers to define schemas for tables, they both come with some crazy drawbacks. PayloadCMS ties you into NextJS, which can be fine, but for serious projects, that isn't always the best decision. For drizzle, I want the ability to attach hooks to schemas. Additionally, they lack the ability to cache collections or schemas out of the box.
+* **The Solution:** A custom CMS with the ability for the packages to be imported into any TypeScript project. It is a fully typed system that enables the easy defining of collections, globals, events, jobs, workflows, and steps. Taking all of my knowledge learned from my e-commerce project, this cms allows developers to build their platforms in an unopinionated way.
+* **The Tech:** TypeScript, Drizzle, Prisma, BullMQ, and more.
 
 ---
 
