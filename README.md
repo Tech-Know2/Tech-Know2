@@ -25,12 +25,12 @@ I'm a **Software Engineering** student at **Arizona State University (Poly)**, m
 ---
 
 ### 🏗️ Featured Projects: 
-#### @phestus (Ecommerce & Web Stack) - In progress
-An event-driven web stack ecosystem designed for extreme composability and modularity. 
+#### @phestus (Web Stack) — In Development — [Live Link](https://v1.phestus.com/)
+An event-driven web stack ecosystem designed for extreme composability, modularity, and developer-controlled infrastructure.
+* **The Problem:** Tools like Sanity and PayloadCMS provide powerful, production-ready systems out of the box. However, the same opinionated architecture that makes these platforms accessible can also become restrictive as application requirements grow. For example, Payload's collection-level caching capabilities, limited job infrastructure, and other tightly coupled systems can make it difficult to replace or extend individual pieces without working around the framework itself.
+* **The Solution:** Phestus introduces a heavily typed Module/Provider/Plugin architecture that separates capabilities from their implementations. Modules define what the system can do, Providers implement those capabilities, and Plugins package and manage extensions. Phestus itself acts as the runtime ecosystem responsible for registration, lifecycle management, and dependency resolution, allowing developers to build and replace infrastructure without being locked into a specific implementation.
+* **The Tech:** TypeScript
 
-* **The Problem:** While tools like **MedusaJS** or **Vendure** offer great infra for initially building out-of-the-box e-commerce websites, I found them to be restrictive when trying to build highly customized experiences. The inability for me to implement changes to backends, and being limited to only adjusting data types and schemas, made it challenging to implement truly custom experiences.
-* **The Solution:** A custom Module/Provider/Plugin architecture leveraging heavily typed infrastructure that could leverage any existing CMS or TS-based web framework.
-* **The Tech:** TypeScript, Queue Tooling (BullMQ, Redis Streams, etc), Redis, PostgreSQL, and so much more
 
 #### @devCMS - In progress
 A content management system modeled after PayloadCMS that allows developers to instantly set up API web servers with typed and defined schemas for events, collections, configs, jobs, and workflows. The system takes after my eCommerce project learnings and is event-driven and typed from the foundation up.
